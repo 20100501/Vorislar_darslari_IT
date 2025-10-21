@@ -1,0 +1,9 @@
+import math
+#12m.To'g'ri to'rtburchakning katetlari a va b berilgan. Uning gipotenuzasi va perimetri aniqlash.
+
+a=int(input("a soni berilgan"))
+b=int(input("b soni berilgan"))
+c=math.sqrt(a**2+b**2)
+p=a+b+c
+print("To'g'ri uchburchakning gipotenuzasi:c=",c)
+print("To'g'ri uchburchakning primetri:p"=,p)
