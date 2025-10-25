@@ -56,4 +56,4 @@ print(davlatlar)
 toqson=list(range(1,21,2))
 print("Asl ko'rinishi:",toqson)
 print("1dan 7 gacha:",toqson[0:4])
-shomurotovamashhura04@gmail.com
+
