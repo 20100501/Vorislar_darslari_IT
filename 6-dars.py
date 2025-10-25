@@ -1,6 +1,7 @@
 """
  21.10.2025
  Python List Operations
+ gitdan yukash
  """
 
 # ism='Bobur'
