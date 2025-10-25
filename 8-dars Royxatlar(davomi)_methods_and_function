@@ -1,0 +1,59 @@
+"""
+25.10.2025
+Ro'yxatlar bilan ishlash. Methodlar va function lar bilan ishlash
+methods.(.sort())
+function (sum(),min(),max(),sorted(),list(),range())
+Ro'yxatlardan nusxa olish
+Tuple() o'zgarmas ro'yhat
+
+"""
+
+
+# davlatlar=["Uzbekiston","Braziya","Isponiya","Vatikan","Qozog'iston","Turkiya"]
+# mashinalar=list(("BMW","audi","tico","damas","depal s07","onix"))
+# sonlar=list((2,5,7,8))
+
+# print(sonlar)
+# print(davlatlar)
+# print(mashinalar)
+
+# mashinalar.sort("BMW","Matiz","Cobalt")
+# print(mashinalar)
+
+# sonlar.sort("6,4,7,-8")
+# print(sonlar)
+
+# sonlar=list(range(0,21))
+# print(sonlar1)
+
+# sonlar=list(range(-7,30,2))
+# print(sonlar2)
+# print(len(sonlar2))
+
+# sonlar3=[89,-98,68,-3,-96,67,88,120,157,369,895,1235,2558,-65]
+# min=min(sonlar3)
+# max=max(sonlar3)
+
+# print(sum(sonlar3))
+
+
+davlatlar=["Uzbekiston","Braziya","Isponiya","Vatikan","Qozog'iston","Turkiya"]
+
+country=davlatlar
+
+print(davlatlar)
+print("davlatlar nomli ro'yxat :",davlatlar)
+print("country nomli ro'yxat :",country)
+      
+country.insert(0,"Singapur")
+print(country)
+
+print(country)
+print(davlatlar)
+
+
+
+toqson=list(range(1,21,2))
+print("Asl ko'rinishi:",toqson)
+print("1dan 7 gacha:",toqson[0:4])
+shomurotovamashhura04@gmail.com

@@ -7,3 +7,4 @@ c=math.sqrt(a**2+b**2)
 p=a+b+c
 print("To'g'ri uchburchakning gipotenuzasi:c=",c)
 print("To'g'ri uchburchakning primetri:p"=,p)
+print("jhjh")
