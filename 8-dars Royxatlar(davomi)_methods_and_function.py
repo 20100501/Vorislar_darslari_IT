@@ -113,7 +113,7 @@ print(f"Alifboga teskari tarzda tartiblangan royhat:{davlatlar}")
 juft_sonlar = list(range(120,33,87))
 print(juft_sonlar)
 
-#9
+
 
 
 
