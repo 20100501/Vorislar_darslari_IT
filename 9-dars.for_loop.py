@@ -36,3 +36,4 @@
     #     print(f"4-darajaga oshgan royhat {sonlar2}")
     
     
+    
