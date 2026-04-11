@@ -1,0 +1,43 @@
+
+class Student:
+    def __init__(self, name, student_id):
+        self.name = name
+        self.student_id = student_id
+        self.courses = []
+        self.grades = {}
+
+    def enroll(self, course):
+        self.courses.append(course)
+
+    def add_grade(self, course, grade):
+        self.grades[course.name] = grade
+
+    def show_info(self):
+        print(f"Ism: {self.name}")
+        print(f"ID: {self.student_id}")
+        print("Kurslar:", [c.name for c in self.courses])
+        print("Baholar:", self.grades)
+
+
+class Course:
+    def __init__(self, name, teacher):
+        self.name = name
+        self.teacher = teacher
+
+
+class Teacher:
+    def __init__(self, name, subject):
+        self.name = name
+        self.subject = subject
+
+
+# TEST
+teacher1 = Teacher("Ali", "Matematika")
+course1 = Course("Matematika", teacher1)
+
+student1 = Student("Vali", 101)
+
+student1.enroll(course1)
+student1.add_grade(course1, 5)
+
+student1.show_info()
