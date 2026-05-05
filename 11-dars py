@@ -1,0 +1,22 @@
+class gozallik_saloni:
+    def_init_(self, oyna, salonchi, daroq, tonka, baza, tanolka, SPF, tush, qalam):
+    self.salonchi = salonchi
+    self.kozgu  = oyna
+    self.comb = taroq
+    self.tonka_bean = tonka
+    self.baza = baza
+    self.tanolka = tanolka
+    self.SPF = SPF
+    self.tush = tush
+    self.qalam = qalam
+def info(self):
+    return f"mening gozallik salonimda turli xil obrazlar va har oy master claslar bolib otadi"    
+def get_salonchi(self):
+    return f"Assalomu alaykum, bizning {self.salonchi} salonchimiz juda mahoratli chunki 5 yillik tajribaga ega"       
+def get_SPF(self):
+    return f"bizning salonimizdagi {self.SPF}lar LUVUM brendidan juda sifatli"    
+
+X_tumani = gozallik_saloni("Mohinur", "shaffof","dior", "dior", "LUVUM", "LUVUM", "dior", "matter", "matter")
+print(X_tumani.get_salonchi())    
+    
+    
